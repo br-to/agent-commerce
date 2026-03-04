@@ -17,12 +17,18 @@ importers:
       '@x402/express':
         specifier: latest
         version: 2.5.0(bufferutil@4.1.0)(ethers@6.16.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(express@4.22.1)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(utf-8-validate@6.0.6)(ws@8.19.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))
+      '@x402/fetch':
+        specifier: ^2.5.0
+        version: 2.5.0(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)
       dotenv:
         specifier: ^16.4.0
         version: 16.6.1
       express:
         specifier: ^4.21.0
         version: 4.22.1
+      viem:
+        specifier: ^2.46.3
+        version: 2.46.3(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     devDependencies:
       '@types/express':
         specifier: ^5.0.0
@@ -909,6 +915,9 @@ packages:
   '@x402/extensions@2.5.0':
     resolution: {integrity: sha512-e7IQShbGUM/XQmzI8DQh2tX/k2XDUGI9DNF+ij2NHUyPEqAt5/mJCwOlaxS/60FWFdfFRfWjTsqaoS7Z8WLi+A==}
 
+  '@x402/fetch@2.5.0':
+    resolution: {integrity: sha512-D2jH3bn0nf8w9Jg3Vxo+6reE6Z9GickzkSIw+udITJFvsrGOpfjZvhcTeflLcthCODk4Nuu9Oe8x7Q3NLUdaRQ==}
+
   abitype@1.0.6:
     resolution: {integrity: sha512-MMSqYh4+C/aVqI2RQaWqbvI4Kxo5cQV40WQ4QFtDnNzCkqChm8MuENhElmynZlO0qUy/ObkEUaXtKqYnx1Kp3A==}
     peerDependencies:
@@ -1687,7 +1696,7 @@ snapshots:
 
   '@scure/bip32@1.7.0':
     dependencies:
-      '@noble/curves': 1.9.1
+      '@noble/curves': 1.9.7
       '@noble/hashes': 1.8.0
       '@scure/base': 1.2.6
 
@@ -2636,6 +2645,16 @@ snapshots:
     transitivePeerDependencies:
       - bufferutil
       - ethers
+      - typescript
+      - utf-8-validate
+
+  '@x402/fetch@2.5.0(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)':
+    dependencies:
+      '@x402/core': 2.5.0
+      viem: 2.46.3(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - bufferutil
       - typescript
       - utf-8-validate
 
