@@ -17,7 +17,7 @@ const products = JSON.parse(
 // ECサーバーのウォレットアドレス（売上受取先）
 const payToAddress = process.env.PAY_TO_ADDRESS as `0x${string}`;
 if (!payToAddress) {
-  console.error("❌ PAY_TO_ADDRESS is required");
+  console.error("PAY_TO_ADDRESS is required");
   process.exit(1);
 }
 
@@ -98,7 +98,7 @@ app.get("/api/purchase/:productId", (req, res) => {
   // 支払い済み → 注文確定
   const orderId = `ORD-${Date.now()}`;
   console.log(
-    `✅ Order ${orderId}: ${product.name} purchased for ${product.price}`
+    `Order ${orderId}: ${product.name} purchased for ${product.price}`
   );
 
   res.json({
@@ -114,10 +114,10 @@ app.get("/api/purchase/:productId", (req, res) => {
 
 const PORT = process.env.PORT || 4021;
 app.listen(PORT, () => {
-  console.log(`🛒 Agent Commerce Server running at http://localhost:${PORT}`);
-  console.log(`📦 ${products.length} products available`);
-  console.log(`💰 Payments via x402 on Base Sepolia`);
-  console.log(`🏦 Pay-to address: ${payToAddress}`);
+  console.log(`Agent Commerce Server running at http://localhost:${PORT}`);
+  console.log(`${products.length} products available`);
+  console.log(`Payments via x402 on Base Sepolia`);
+  console.log(`Pay-to address: ${payToAddress}`);
   console.log(`\nEndpoints:`);
   console.log(`  GET /api/products          — List all products (free)`);
   console.log(`  GET /api/products/search?q= — Search products (free)`);
