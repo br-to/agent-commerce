@@ -1,8 +1,8 @@
 [
   {
     "id": "coffee-001",
-    "name": "Ethiopian Yirgacheffe Coffee Beans",
-    "description": "Single origin, light roast, floral and citrus notes",
+    "name": "エチオピア イルガチェフェ コーヒー豆",
+    "description": "シングルオリジン、浅煎り、フローラルで柑橘系の香り",
     "price": "$0.001",
     "currency": "USDC",
     "stock": 50,
@@ -10,8 +10,8 @@
   },
   {
     "id": "coffee-002",
-    "name": "Colombian Supremo Coffee Beans",
-    "description": "Medium roast, nutty and chocolate flavor",
+    "name": "コロンビア スプレモ コーヒー豆",
+    "description": "中煎り、ナッツとチョコレートの風味",
     "price": "$0.001",
     "currency": "USDC",
     "stock": 30,
@@ -19,8 +19,8 @@
   },
   {
     "id": "tea-001",
-    "name": "Kyoto Uji Matcha Powder",
-    "description": "Premium ceremonial grade matcha from Kyoto",
+    "name": "京都宇治抹茶パウダー",
+    "description": "最高級セレモニーグレード、京都産",
     "price": "$0.002",
     "currency": "USDC",
     "stock": 20,
@@ -28,8 +28,8 @@
   },
   {
     "id": "snack-001",
-    "name": "Dark Chocolate Bar 72%",
-    "description": "Belgian dark chocolate, fair trade certified",
+    "name": "ダークチョコレート 72%",
+    "description": "ベルギー産ダークチョコレート、フェアトレード認証",
     "price": "$0.001",
     "currency": "USDC",
     "stock": 100,
@@ -37,8 +37,8 @@
   },
   {
     "id": "snack-002",
-    "name": "Organic Trail Mix",
-    "description": "Almonds, cashews, dried cranberries, dark chocolate chips",
+    "name": "オーガニック トレイルミックス",
+    "description": "アーモンド、カシューナッツ、ドライクランベリー、ダークチョコチップ",
     "price": "$0.001",
     "currency": "USDC",
     "stock": 75,
