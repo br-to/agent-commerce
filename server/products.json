@@ -1,47 +1,56 @@
 [
   {
-    "id": "coffee-001",
-    "name": "エチオピア イルガチェフェ コーヒー豆",
-    "description": "シングルオリジン、浅煎り、フローラルで柑橘系の香り",
+    "id": "shampoo-001",
+    "name": "ボタニカル シャンプー 500ml",
+    "description": "オーガニック成分配合、ノンシリコン、ラベンダーの香り",
     "price": "$0.001",
     "currency": "USDC",
-    "stock": 50,
-    "category": "coffee"
+    "stock": 40,
+    "category": "haircare"
   },
   {
-    "id": "coffee-002",
-    "name": "コロンビア スプレモ コーヒー豆",
-    "description": "中煎り、ナッツとチョコレートの風味",
+    "id": "shampoo-002",
+    "name": "スカルプケア シャンプー 400ml",
+    "description": "メントール配合、頭皮の脂をしっかり落とす、メンズ向け",
     "price": "$0.001",
     "currency": "USDC",
-    "stock": 30,
-    "category": "coffee"
+    "stock": 35,
+    "category": "haircare"
   },
   {
-    "id": "tea-001",
-    "name": "京都宇治抹茶パウダー",
-    "description": "最高級セレモニーグレード、京都産",
-    "price": "$0.002",
+    "id": "detergent-001",
+    "name": "部屋干し用 液体洗濯洗剤 900ml",
+    "description": "抗菌・消臭、部屋干しでも臭わない、すすぎ1回OK",
+    "price": "$0.001",
     "currency": "USDC",
-    "stock": 20,
-    "category": "tea"
+    "stock": 60,
+    "category": "laundry"
   },
   {
-    "id": "snack-001",
-    "name": "ダークチョコレート 72%",
-    "description": "ベルギー産ダークチョコレート、フェアトレード認証",
+    "id": "detergent-002",
+    "name": "食器用洗剤 詰め替え 700ml",
+    "description": "手肌にやさしい、油汚れに強い、無香料",
+    "price": "$0.001",
+    "currency": "USDC",
+    "stock": 80,
+    "category": "kitchen"
+  },
+  {
+    "id": "tissue-001",
+    "name": "ボックスティッシュ 5箱パック",
+    "description": "3枚重ね、やわらか仕上げ、150組入り",
     "price": "$0.001",
     "currency": "USDC",
     "stock": 100,
-    "category": "snack"
+    "category": "daily"
   },
   {
-    "id": "snack-002",
-    "name": "オーガニック トレイルミックス",
-    "description": "アーモンド、カシューナッツ、ドライクランベリー、ダークチョコチップ",
+    "id": "bodywash-001",
+    "name": "ボディソープ 詰め替え 600ml",
+    "description": "保湿成分配合、泡立ちがよい、シトラスの香り",
     "price": "$0.001",
     "currency": "USDC",
-    "stock": 75,
-    "category": "snack"
+    "stock": 45,
+    "category": "bodycare"
   }
 ]
