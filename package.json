@@ -1,0 +1,22 @@
+{
+  "name": "agent-commerce",
+  "version": "0.1.0",
+  "description": "AI Agent Autonomous E-Commerce PoC - x402 powered",
+  "type": "module",
+  "scripts": {
+    "server": "tsx server/index.ts",
+    "agent": "tsx agent/index.ts"
+  },
+  "dependencies": {
+    "@x402/express": "latest",
+    "@x402/evm": "latest",
+    "@x402/core": "latest",
+    "express": "^4.21.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

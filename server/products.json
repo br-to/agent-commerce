@@ -1,0 +1,47 @@
+[
+  {
+    "id": "coffee-001",
+    "name": "Ethiopian Yirgacheffe Coffee Beans",
+    "description": "Single origin, light roast, floral and citrus notes",
+    "price": "$0.001",
+    "currency": "USDC",
+    "stock": 50,
+    "category": "coffee"
+  },
+  {
+    "id": "coffee-002",
+    "name": "Colombian Supremo Coffee Beans",
+    "description": "Medium roast, nutty and chocolate flavor",
+    "price": "$0.001",
+    "currency": "USDC",
+    "stock": 30,
+    "category": "coffee"
+  },
+  {
+    "id": "tea-001",
+    "name": "Kyoto Uji Matcha Powder",
+    "description": "Premium ceremonial grade matcha from Kyoto",
+    "price": "$0.002",
+    "currency": "USDC",
+    "stock": 20,
+    "category": "tea"
+  },
+  {
+    "id": "snack-001",
+    "name": "Dark Chocolate Bar 72%",
+    "description": "Belgian dark chocolate, fair trade certified",
+    "price": "$0.001",
+    "currency": "USDC",
+    "stock": 100,
+    "category": "snack"
+  },
+  {
+    "id": "snack-002",
+    "name": "Organic Trail Mix",
+    "description": "Almonds, cashews, dried cranberries, dark chocolate chips",
+    "price": "$0.001",
+    "currency": "USDC",
+    "stock": 75,
+    "category": "snack"
+  }
+]
