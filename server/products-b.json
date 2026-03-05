@@ -1,0 +1,56 @@
+[
+  {
+    "id": "shampoo-001",
+    "name": "ボタニカル シャンプー 500ml",
+    "description": "オーガニック成分配合、ノンシリコン、ラベンダーの香り",
+    "price": "$0.0012",
+    "currency": "USDC",
+    "stock": 20,
+    "category": "haircare"
+  },
+  {
+    "id": "shampoo-002",
+    "name": "スカルプケア シャンプー 400ml",
+    "description": "メントール配合、頭皮の脂をしっかり落とす、メンズ向け",
+    "price": "$0.0008",
+    "currency": "USDC",
+    "stock": 50,
+    "category": "haircare"
+  },
+  {
+    "id": "detergent-001",
+    "name": "部屋干し用 液体洗濯洗剤 900ml",
+    "description": "抗菌・消臭、部屋干しでも臭わない、すすぎ1回OK",
+    "price": "$0.0015",
+    "currency": "USDC",
+    "stock": 30,
+    "category": "laundry"
+  },
+  {
+    "id": "detergent-002",
+    "name": "食器用洗剤 詰め替え 700ml",
+    "description": "手肌にやさしい、油汚れに強い、無香料",
+    "price": "$0.0007",
+    "currency": "USDC",
+    "stock": 100,
+    "category": "kitchen"
+  },
+  {
+    "id": "tissue-001",
+    "name": "ボックスティッシュ 5箱パック",
+    "description": "3枚重ね、やわらか仕上げ、150組入り",
+    "price": "$0.0013",
+    "currency": "USDC",
+    "stock": 70,
+    "category": "daily"
+  },
+  {
+    "id": "bodywash-001",
+    "name": "ボディソープ 詰め替え 600ml",
+    "description": "保湿成分配合、泡立ちがよい、シトラスの香り",
+    "price": "$0.0006",
+    "currency": "USDC",
+    "stock": 55,
+    "category": "bodycare"
+  }
+]
