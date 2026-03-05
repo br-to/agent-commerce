@@ -1,6 +1,5 @@
 import { config } from "dotenv";
 import express from "express";
-import cors from "cors";
 import { paymentMiddleware, x402ResourceServer } from "@x402/express";
 import { ExactEvmScheme as ServerEvmScheme } from "@x402/evm/exact/server";
 import { ExactEvmScheme as ClientEvmScheme } from "@x402/evm/exact/client";
@@ -61,7 +60,6 @@ if (agentPrivateKey) {
 
 const app = express();
 app.use(express.json());
-app.use(cors());
 
 const BASESCAN_URL = "https://sepolia.basescan.org/tx";
 
